@@ -11,6 +11,8 @@ Because ByT5 operates at the byte-level rather than the word-level, traditional 
 2. **Quality Estimation (MBR):** Candidates are scored against each other using a weighted matrix of `chrF++`, `BLEU`, `Jaccard Similarity`, and fluency confidence from a fine-tuned RoBERTa CoLA model.
 3. **Legal RAG Override:** An aggressive fuzzy-matching fallback against established academic datasets (Michel Corpus) to guarantee historical accuracy.
 
+![Architecture Pipeline](assest/architecture_diagram.png)
+
 ## ⚙️ Key Engineering Challenges Solved
 *(This is where you prove your engineering grit. Mention the specific traps you bypassed.)*
 

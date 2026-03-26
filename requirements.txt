@@ -1,0 +1,16 @@
+# Core Machine Learning & Neural Networks
+torch>=2.0.0
+transformers==4.37.2
+accelerate>=0.21.0
+sentencepiece>=0.1.99
+
+# Data Processing & Math
+pandas>=2.0.0
+numpy>=1.24.0
+
+# NLP Evaluation & String Matching
+sacrebleu==2.6.0
+rapidfuzz==3.14.3
+
+# Utilities
+tqdm>=4.66.1
